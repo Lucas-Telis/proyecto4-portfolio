@@ -5,7 +5,7 @@ const data = {
   avatar:
     'https://previews.123rf.com/images/yupiramos/yupiramos1712/yupiramos171220597/92183510-hombre-avatar-perfil-icono-imagen-vector-ilustraci%C3%B3n-dise%C3%B1o.jpg',
   aboutMe:
-    'My name is Lucas, I am 21 years old, I live in Tenerife and I am from Uruguay. I like the sea and the tranquility.',
+    'Hello! My name is Lucas, I am from Uruguay but I have been in Spain for 3 years, in Tenerife specifically. I love challenges and I like to learn something new every day.',
 
   education: {
     degree: 'Bachiller - Humanistic',
@@ -31,17 +31,14 @@ const data = {
     }
   ],
   skills: [
-    'HTML5',
-    'CSS3',
-    'JavaScript',
-    'React',
-    'Node.js',
-    'Express.js',
-    'MongoDB',
-    'RESTful API',
-    'Git',
-    'Frontend and Backend Development'
+    'icons8-html-5-48.png',
+    'icons8-css3-48.png',
+    'icons8-javascript-48.png',
+    'icons8-node-48.png',
+    'icons8-vite-48.png',
+    'icons8-github-48.png'
   ],
+
   projects: [
     {
       title: 'Goku-DragonBall',
