@@ -3,17 +3,34 @@ import './AboutMe.css'
 
 const template = () => {
   return `
-    <section class="aboutme" id="aboutme">
-      <h2>About me</h2>
+    <nav class="aboutme1">
+    <div class="h1h3">
+      <h3>Hi!</h3>
+      <h1>I´m a web developer</h1>
+      <h3>I build thing for web</h3>
+      </div>
       <img class="avatar" src=${data.avatar} alt=${data.name}/>
+      </nav>
+      <section class="aboutme" id="aboutme">
       <ul>
-      ${data.skills
-        .map(
-          (skill) => `<li>
-      <p>${skill}</p>
-      </li>`
-        )
-        .join('')}
+        <li>
+          <img src="../../assets/css3.png" />
+        </li>
+        <li>
+          <img src="../../assets/github.png" />
+        </li>
+        <li>
+          <img src="../../assets/javascript.png" />
+        </li>
+        <li>
+          <img src="../../assets/node.png" />
+        </li>
+        <li>
+          <img src="../../assets/vite.png" />
+        </li>
+        <li>
+          <img src="../../assets/html5.png" />
+        </li>
     </ul>
       <p>${data.aboutMe}</p>
       <p>${data.address}</p>
