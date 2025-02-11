@@ -12,7 +12,12 @@ const template = () => {
       <img class="avatar" src=${data.avatar} alt=${data.name}/>
       </nav>
       <section class="aboutme" id="aboutme">
-      <ul>
+      <h1>About me</h1>
+      <p>${data.aboutMe}</p>
+      <p>${data.address}</p>
+      <a class "a" href=${`mailto:${data.email}>Contact me</a>`}
+      <h1 class="h1skills">My skills</h1>
+            <ul>
         <li>
           <img src="../../assets/css3.png" />
         </li>
@@ -32,9 +37,6 @@ const template = () => {
           <img src="../../assets/html5.png" />
         </li>
     </ul>
-      <p>${data.aboutMe}</p>
-      <p>${data.address}</p>
-      <a class "a" href=${`mailto:${data.email}>Contact me</a>`}
     </section>
   `
 }

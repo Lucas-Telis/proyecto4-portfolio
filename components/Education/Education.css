@@ -5,5 +5,6 @@
   align-items: center;
   text-align: center;
   gap: 1rem;
-  margin: 100px 0px;
+  margin: 40px 0px;
+  color: var(--body);
 }

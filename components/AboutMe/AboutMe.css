@@ -3,12 +3,17 @@
   flex-direction: column;
   gap: 0.6rem;
   font-size: 2rem;
+  color: var(--secondary);
+}
+.h1h3 > h1 {
+  color: var(--tertiary);
 }
 .aboutme1 {
   display: flex;
   align-items: center;
   padding: 1.5rem;
   justify-content: space-around;
+  background-color: var(--body);
 }
 
 .aboutme1 > img {
@@ -22,11 +27,6 @@
   animation: rotate infinite 5s;
 }
 
-.aboutme > p {
-  max-width: 700px;
-  text-align: center;
-}
-
 .aboutme > ul {
   display: flex;
   gap: 1rem;
@@ -35,10 +35,8 @@
 }
 
 .aboutme li {
-  padding: 2px 8px;
-  background-color: var(--body);
-  border-radius: 1rem;
-  color: var(--background);
+  width: 100px;
+  text-align: center;
 }
 
 @keyframes rotate {
@@ -48,4 +46,25 @@
   100% {
     transform: rotate(360deg);
   }
+}
+
+.aboutme {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  color: var(--body);
+  padding: 3rem;
+}
+
+.aboutme > p {
+  max-width: 600px;
+  text-align: initial;
+}
+.aboutme > h1 {
+  font-size: 2rem;
+  color: var(--tertiary);
+}
+
+.aboutme > .h1skills {
+  text-align: center;
 }

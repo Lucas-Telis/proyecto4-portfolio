@@ -7,16 +7,16 @@ const template = () => {
     <nav>
       <ul>
         <li>
-          <a href="#aboutme">About me</a>
+          <a class="header-a" href="#aboutme">About me</a>
         </li>
         <li>
-          <a href="#education">Education</a>
+          <a class="header-a" href="#education">Education</a>
         </li>
         <li>
-          <a href="#experience">Experience</a>
+          <a class="header-a" href="#experience">Experience</a>
         </li>
         <li>
-          <a href="#projects">Projects</a>
+          <a class="header-a" href="#projects">Projects</a>
         </li>
       </ul>
     </nav>
