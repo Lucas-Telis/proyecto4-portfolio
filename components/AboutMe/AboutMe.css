@@ -14,6 +14,7 @@
   padding: 1.5rem;
   justify-content: space-around;
   background-color: var(--body);
+  margin-top: 1rem;
 }
 
 .aboutme1 > img {
@@ -67,4 +68,12 @@
 
 .aboutme > .h1skills {
   text-align: center;
+}
+
+@media (max-width: 768px) {
+  .aboutme1 {
+    display: block;
+    align-items: center;
+    padding-top: 5rem;
+  }
 }
