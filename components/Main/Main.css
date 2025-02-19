@@ -5,6 +5,7 @@ main {
 }
 
 #change {
+  overflow: hidden;
   background-color: var(--tertiary);
   color: var(--body);
   cursor: pointer;
